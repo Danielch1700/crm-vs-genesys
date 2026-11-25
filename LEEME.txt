@@ -1,0 +1,36 @@
+CRM vs Genesys - Grupo 5
+========================
+
+VER LA PRESENTACION
+  Doble clic en index.html. Flechas o espacio = avanzar.
+  N = notas del presentador · F = pantalla completa
+
+EDITAR TEXTOS (Visual Studio Code)
+  Abre la carpeta, abre index.html, busca la frase con Ctrl+F,
+  cambiala y guarda con Ctrl+S. Cada diapositiva esta marcada
+  con un comentario "DIAPOSITIVA N".
+
+ESPACIOS PARA FOTOS Y VIDEO (opcionales)
+  Solo guarda el archivo con el nombre exacto en la carpeta indicada.
+  Si el archivo no existe, la diapositiva se ve completa igual.
+
+  Diapositiva 1  · img/equipo.jpg   Foto del equipo (vertical, ~640x720).
+                                    Reemplaza el dibujo de los circulos.
+  Diapositiva 3  · img/antes.png    Captura del proceso manual, p. ej. el
+                                    Excel con IDs concatenados (~500x460).
+                                    Reemplaza la nota "≈ 4 h al mes".
+  Diapositiva 6  · video/demo.mp4   Grabacion de respaldo de la demo
+                                    (16:9, silenciada; se reproduce sola).
+                   img/demo.png     O, en vez de video, una captura.
+                                    Ambos reemplazan la terminal dibujada.
+  Diapositiva 10 · img/prueba4.png  Evidencia de la prueba 4 (difumina
+                                    datos personales). Debajo del veredicto.
+  Diapositiva 13 · img/reporte.png  Captura del reporte de faltantes en
+                                    Salidas\ (difuminado). Abajo a la derecha.
+
+  En index.html busca "ESPACIO MULTIMEDIA" para ver/mover cada uno
+  (left, top, width, height cambian posicion y tamano).
+
+SUBIR A VERCEL
+  vercel.com -> Add New -> Project -> arrastra la carpeta crm-vs-genesys
+  (con img/ y video/ adentro). No hay que configurar nada.
